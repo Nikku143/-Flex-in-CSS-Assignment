@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Times New Roman", Times, serif;
+      }
+
+      body {
+        padding: 110px;
+        justify-content: center;
+        display: flex;
+      }
+
+      .container {
+        width: 60%;
+        background-color: rgba(255, 255, 255, 0.736);
+        border: 1px solid black;
+        display: flex;
+        justify-content: space-around;
+        height: 370px;
+        gap: 2px;
+      }
+
+      .plan1 {
+        padding: 16px;
+        border: 5px solid rgba(0, 0, 0, 0.06);
+        margin: 10px;
+        height: 85%;
+        width: 28%;
+        border-radius: 5px;
+      }
+
+      .plan1 li {
+        list-style-type: none;
+      }
+
+      .submit {
+        cursor: pointer;
+        border-radius: 20px;
+        padding-left: 30px;
+        padding-right: 30px;
+        height: 34px;
+        border: 1px solid rgb(2, 2, 30);
+        color: white;
+        background-color: rgb(2, 2, 30);
+      }
+
+      .plan1:hover {
+        background-color: rgba(2, 2, 30, 0.94);
+        color: white;
+        font: 1em sans-serif;
+      }
+
+      button:hover {
+        background-color: rgba(255, 255, 255, 0.889);
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="plan1">
+        <h1>Free Plan</h1>
+        <h5>For personal</h5>
+        <br />
+        <h2>$0</h2>
+        <br />
+        <ul>
+          <li><i class="fa-solid fa-circle-check"></i> 1 users</li>
+          <li><i class="fa-solid fa-circle-check"></i> 4 Web mails</li>
+          <li><i class="fa-solid fa-circle-check"></i> Responsive Website</li>
+          <li><i class="fa-solid fa-circle-check"></i> Free SSL</li>
+        </ul>
+        <br />
+        <br />
+        <button class="submit">Subscribe now</button>
+      </div>
+
+      <div class="plan1">
+        <h1>Basic plan</h1>
+        <h5>For small business</h5>
+        <br />
+        <h2>$29</h2>
+        <br />
+        <ul>
+          <li><i class="fa-solid fa-circle-check"></i> 4 users</li>
+          <li><i class="fa-solid fa-circle-check"></i> 10 Web mails</li>
+          <li><i class="fa-solid fa-circle-check"></i> Responsive Website</li>
+          <li><i class="fa-solid fa-circle-check"></i> Free SSL</li>
+        </ul>
+        <br />
+        <br />
+        <button class="submit">Subscribe now</button>
+      </div>
+
+      <div class="plan1">
+        <h1>Pro Plan</h1>
+        <h5>For enterprise</h5>
+        <br />
+        <h2>$49</h2>
+        <br />
+        <ul>
+          <li><i class="fa-solid fa-circle-check"></i> Unlimited users</li>
+          <li><i class="fa-solid fa-circle-check"></i> Unlimited Web mails</li>
+          <li><i class="fa-solid fa-circle-check"></i> Responsive Website</li>
+          <li><i class="fa-solid fa-circle-check"></i> Free SSL + SEO</li>
+        </ul>
+        <br />
+        <br />
+        <button class="submit">Subscribe now</button>
+      </div>
+    </div>
+  </body>
+</html>

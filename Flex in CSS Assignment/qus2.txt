@@ -1,0 +1,77 @@
+    JUSTIFY CONTENT:-The justify-content property aligns the flexible container's items
+     when the items do not use all available space on the main-axis (horizontally).
+     Tip: Use the align-items property to align the items vertically.
+
+     example:-
+     Value       	Description	
+flex-start    	Default value. Items are positioned at the beginning of the container	
+flex-end	    Items are positioned at the end of the container	
+center	        Items are positioned in the center of the container	
+space-between	Items will have space between them	
+space-around	Items will have space before, between, and after them	
+space-evenly	Items will have equal space around them	
+initial     	Sets this property to its default value. Read about initial	
+inherit     	Inherits this property from its parent element. Read about inherit
+
+
+ALIGN ITEMS:-The align-items property specifies the default alignment for items inside a flexbox or grid container.
+In a flexbox container, the flexbox items are aligned on the cross axis, which is vertical by default (opposite of flex-direction).
+In a grid container, the grid items are aligned in the block direction. For pages in English, block direction is downward and inline direction is left to right.
+For this property to have any alignment effect, the items need available space around themselves in the appropriate direction.
+Tip: Use the align-self property of each item to override the align-items property.
+
+example:-
+
+Value	        Description	
+normal	      Default. Behaves like 'stretch' for flexbox and grid items, or 'start' for grid items with a defined block size.	
+stretch	      Items are stretched to fit the container	
+center	      Items are positioned at the center of the container	
+flex-start    Items are positioned at the beginning of the container	
+flex-end	  Items are positioned at the end of the container	
+start	      Items are positioned at the beginning of their individual grid cells, in the block direction	
+end           Items are positioned at the end of the their individual grid cells, in the block direction	
+baseline	  Items are positioned at the baseline of the container	
+initial	      Sets this property to its default value. Read about initial	
+inherit	     Inherits this property from its parent element. Read about inherit
+
+GAP:-The gap property defines the size of the gap between the rows and between the columns in flexbox, grid or multi-column layout.
+ It is a shorthand for the following properties:
+
+row-gap
+column-gap
+Note: The gap property was formerly known as grid-gap.
+
+example:-
+
+Value	     Description	
+row-gap	     Sets the size of the gap between the rows in a grid or flexbox layout	
+column-gap	 Sets the size of the gap between the columns in a grid, flexbox or multi-column layout	
+initial	     Sets this property to its default value. Read about initial	
+inherit	     Inherits this property from its parent element. Read about inherit
+
+FLEX DIRECTION:-The flex-direction property specifies the direction of the flexible items.
+Note: If the element is not a flexible item, the flex-direction property has no effect.
+
+example:-
+
+Value	         Description	
+row     	    Default value. The flexible items are displayed horizontally, as a row	
+row-reverse  	Same as row, but in reverse order	
+column	         The flexible items are displayed vertically, as a column	
+column-reverse   Same as column, but in reverse order	
+initial	         Sets this property to its default value. Read about initial	
+inherit	        Inherits this property from its parent element. Read about inherit
+
+
+FLEX WRAP:-The flex-wrap property specifies whether the flexible items should wrap or not.
+Note: If the elements are not flexible items, the flex-wrap property has no effect.
+
+example:-
+
+
+Value	       Description	
+nowrap    	  Default value. Specifies that the flexible items will not wrap	
+wrap	      Specifies that the flexible items will wrap if necessary	
+wrap-reverse  Specifies that the flexible items will wrap, if necessary, in reverse order	
+initial	      Sets this property to its default value. Read about initial	
+inherit	     Inherits this property from its parent element. Read about inherit
